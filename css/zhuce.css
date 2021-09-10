@@ -1,0 +1,104 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;}
+.fs38{font-size: 38px;}
+.fs12{font-size: 12px;}
+.pg_f_r_15{padding:0px 15px;}
+.yj{border-radius: 5px;}
+.text_c_fff{color:#fff}
+
+#content{
+  background: #ffffff;
+
+}
+.tou_img{width: 100%;}
+/* 头部 */
+#tou{
+  background-image:linear-gradient(to bottom,rgb(68, 30, 207),#00a0d8);background-size:cover;
+  border-bottom: solid 10px rgb(#00a0d8);
+  }
+#tou>ul{
+  /* background-color: pink; */
+  list-style: none;
+  display: flex;
+  align-items:center;  
+}
+#tou li{margin: 0 15px;}
+#tou>ul>li:not(:first-child){
+
+  padding-top: 7px;
+}
+/* 注册 */
+#zhuce{
+  width: 80%;
+  margin: 0 auto;
+  height: 28px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+#zhuce>span{
+  
+  padding: 20px;
+  background: #fff;
+}
+
+/* 内容 */
+#nieron{
+padding: 0px 10px;
+text-align: center;
+padding-top:60px;
+padding-bottom: 60px;
+}
+#nieron>div{margin: 0 auto;}
+.neiron_input{
+  /* margin: 0 auto; */
+  /* border: solid 1px red; */
+  outline: 0;
+  width: 50%;height: 38px;
+}.shouji>select{width: 30%;outline: none;border: none !important;}
+.shouji{display: flex;justify-content: flex-end;}
+.dianhua{
+  box-sizing: border-box;
+  padding-left:  20px;
+  justify-content: flex-end;
+  outline: none;
+  border:none !important;
+  width: 70%;;
+  height: 100%;
+}
+.yanzheng{display: flex;align-items: center;}
+.yanzheng>button{width: 40%;height: 95%;border:none !important;outline:none;background-color: #59c3e6;}
+.yanzheng>button:hover{background-color: rgb(68, 139, 163);}
+.yanzheng>input{width: 60%;height: 100%;outline: none;border: none !important;}
+#nieron>div:nth-child(9) button{
+  background-color: #00a1d6;
+  outline: 0;
+  width: 50%;height: 41.98px;
+}
+#nieron>div:nth-child(9)>button:hover{
+  background-color:#0072d6;
+}
+.br_ddd{border: 1px solid #dcdfe6;}
+.tonyi{
+  /* margin: 0 auto; */
+  text-align: left;
+  padding: 10px;
+  width:50%;height: 18px;
+}
+.yiyou{
+  width:50%;height: 18px;
+  text-align: right;
+  padding-top: 10px;
+}
+/* 尾部 */
+#weibu{
+  /* width: 100%; */
+  display: flex;
+  justify-content:space-around;
+  background-color: #f6f9fa;
+}
+#weibu a{color: #000;}
+#weibu h3{color: #999;font-weight: 300;}
+#weibu ul{list-style: none;}
+#weibu li{
+  padding-bottom:20px ;
+}
